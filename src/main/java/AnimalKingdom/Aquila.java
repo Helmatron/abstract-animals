@@ -1,7 +1,9 @@
 package AnimalKingdom;
 
-public class Aquila extends AbstractAnimal{
+public class Aquila extends AbstractAnimal implements IVolante {
 	
+
+
 	@Override
 	public void verso() {
 		System.out.println("L'aquila stridisce");
@@ -12,4 +14,10 @@ public class Aquila extends AbstractAnimal{
 		System.out.println("Si nutre di carne");
 	}
 
+	@Override
+	public void faiVolare() {
+		System.out.println("Sto Volando!");
+	}
+	
+	
 }

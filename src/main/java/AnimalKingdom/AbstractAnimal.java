@@ -1,6 +1,7 @@
 package AnimalKingdom;
 
-public abstract class AbstractAnimal {
+public abstract class AbstractAnimal{
+	
 
 	public void dormi() {
 		System.out.println("Zzz");

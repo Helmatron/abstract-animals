@@ -1,6 +1,6 @@
 package AnimalKingdom;
 
-public class Passerotto extends AbstractAnimal{
+public class Passerotto extends AbstractAnimal implements IVolante{
 
 	@Override
 	public void verso() {
@@ -10,6 +10,15 @@ public class Passerotto extends AbstractAnimal{
 	@Override
 	public void mangia() {
 		System.out.println("Si nutre di vermi");
+	}
+	
+	public void vola() {
+		System.out.println("Sto volando!!!");
+	}
+
+	@Override
+	public void faiVolare() {
+		System.out.println("Sto Volando!");
 	}
 	
 }
